@@ -20,7 +20,7 @@ On AWS Cognito console:
   - Allowed Custom Scopes: Check mark on https://example.com/api
   - Save changes
 
-## Setting dev-splitter API Gateway OauthAuthorizationScope (Do these for all 3 methods (receivingPayload POST, SplitterIDLookup GET and SplitterInquiry GET)):
+## Setting dev-ApiGatewayAndCognitoUserPool API Gateway OauthAuthorizationScope:
 On AWS Amazon API Gateway:
 1. Select dev-ApiGatewayAndCognitoUserPool
 2. Select Resource
